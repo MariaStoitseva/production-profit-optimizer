@@ -29,23 +29,23 @@ The complete implementation and mathematical explanations are available in the J
 
 The project uses a linear demand function:
 
-\[
+$$
 D(p) = a + bp
-\]
+$$
 
 where \(p\) is the selling price and \(a\) and \(b\) are estimated from two price-demand observations.
 
 Total production cost is modeled as:
 
-\[
+$$
 C(q) = F + cq
-\]
+$$
 
 Profit is calculated as:
 
-\[
+$$
 P(q,p) = p \cdot \min(q,D(p)) - C(q)
-\]
+$$
 
 where:
 
